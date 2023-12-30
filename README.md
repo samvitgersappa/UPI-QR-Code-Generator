@@ -15,3 +15,4 @@ This Python script utilizes the power of Streamlit and qrcode to create a simple
 - qrcode
 
 ### How to Use
+![The website UI](https://github.com/samvitgersappa/UPI-QR-Code-Generator/blob/main/apppic.png)
