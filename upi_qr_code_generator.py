@@ -20,9 +20,8 @@ def generate_upi_qr_code(upi_id: str, amount: float, currency: str) -> None:
 with st.form("my_form"):
     upi_id = st.text_input("Enter your UPI Id : ")
     amount = st.number_input("Enter the amount : ")
-    currency = st.text_input("Enter the currency : ")
     submit = st.form_submit_button("Generate QR Code")
 
 #Executes the function when the user clicks the submit button
     if submit:
-        generate_upi_qr_code(upi_id, amount, currency)
+        generate_upi_qr_code(upi_id, amount,'INR')
